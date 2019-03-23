@@ -9,6 +9,5 @@ if __name__ == '__main__':
     
     result = 0
     for key in student_marks[query_name]:
-        key = float(key)
-        result += key / 3
-    print('{:.2f}'.format(result))
+        result += float(key) / 3
+    print('{:.2f}' .format(result))

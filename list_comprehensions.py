@@ -9,8 +9,8 @@ if __name__ == '__main__':
     for one in range(x + 1):
         for two in range(y + 1):
             for three in range(z + 1):
-                if one + two + three != n: 
-                    array.append([]) 
-                    array[p] = [one, two, three] 
-                    p += 1 
+                if one + two + three != n:
+                    array.append([])
+                    array[p] = [one, two, three]
+                    p += 1
     print(array)
